@@ -9,5 +9,5 @@ MQTT messages are filtered by deviceUid and sensorUid
 
 Connection to SQL Server database via Microsoft Entra Id  (account owner specific)
 
-See full [project architecture](https://github.com/you/iot-web-dashboard#architecture)
+See full [project architecture](https://github.com/huyle-auto/iiot-micro-service-mqtt-client/blob/7a92edc33feab2fa177edbdcb55190a52904683b/architecture.jpg)
 
