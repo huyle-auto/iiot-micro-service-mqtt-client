@@ -1,7 +1,7 @@
 # iiot-micro-service-mqtt-client
 
-A part of a self-learning project, along with [Vue Web App](<vue_web_app_link>) and [API Server](<api_server_link>).  
-See full architecture: [Project Overview](https://github.com/huyle-auto/iiot-micro-service-mqtt-client/blob/7a92edc33feab2fa177edbdcb55190a52904683b/architecture.jpg)
+A part of a self-learning project, along with [Vue Web App](https://github.com/huyle-auto/iiot-vue-web-app) and [API Server](https://github.com/huyle-auto/iiot-api-server).  
+See full [project architecture](https://github.com/huyle-auto/iiot-micro-service-mqtt-client/blob/7a92edc33feab2fa177edbdcb55190a52904683b/architecture.jpg)
 
 ## Use Case
 
@@ -15,13 +15,13 @@ This microservice acts as a **bridge** between the **HiveMQ Cloud MQTT broker** 
 
 > **Current no publishing functionalities implemented.**
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - **Node.js**
 - **MQTT.js** — for broker connection and topic subscription
 - **mssql** — for SQL Server database access
 
-## 🔧 Configuration
+## Configuration
 
 Create a `.env` file to store the following values:
 
@@ -30,13 +30,12 @@ MQTT_BROKER_URL=your_broker_url
 MQTT_PORT=8883
 MQTT_USERNAME=your_hivemq_username
 MQTT_PASSWORD=your_hivemq_password
-MQTT_TOPICS=sensors/+,robots/+/status
+MQTT_TOPICS=your_mqtt_topic
 
 SQL_SERVER=your_sql_server
 SQL_DATABASE=your_database_name
 SQL_USERNAME-your_database_username
 SQL_PASSWORD=your_database_password
-
 ```
 
 ## Run
