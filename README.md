@@ -40,8 +40,10 @@ SQL_PASSWORD=your_database_password
 
 ## Run
 
+```bash
 npm install
 node src/index.js
+```
 
 ## Author
 
