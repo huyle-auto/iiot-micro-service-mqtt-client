@@ -1,7 +1,6 @@
 # iiot-micro-service-mqtt-client
 
-A part of a self-learning project, along with [Vue Web App](https://github.com/huyle-auto/iiot-vue-web-app) and [API Server](https://github.com/huyle-auto/iiot-api-server).  
-See full [project architecture](https://github.com/huyle-auto/iiot-micro-service-mqtt-client/blob/7a92edc33feab2fa177edbdcb55190a52904683b/architecture.jpg)
+A part of my self-learning project, along with [Vue Web App](https://github.com/huyle-auto/iiot-vue-web-app) and [API Server](https://github.com/huyle-auto/iiot-api-server). See full [project architecture](https://github.com/huyle-auto/iiot-micro-service-mqtt-client/blob/7a92edc33feab2fa177edbdcb55190a52904683b/architecture.jpg)
 
 ## Use Case
 
